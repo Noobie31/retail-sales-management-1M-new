@@ -1,0 +1,10 @@
+# Ignore sales data
+sales_data.csv
+
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Env files
+frontend/.env
+backend/.env
