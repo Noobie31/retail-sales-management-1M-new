@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const salesSchema = new mongoose.Schema({
   tid: {
-    type: String,
+    type: Number,
     required: true,
     unique: true,
     index: true
